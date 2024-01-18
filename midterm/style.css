@@ -1,0 +1,303 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    color: white;
+    padding:20px;
+    position: fixed;
+    width: 100%;
+    top: 0%; 
+}
+
+ul{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+ 
+ul li {
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-inline: 20px;
+}
+nav li a:hover{
+    color: black;
+    
+}
+nav .logo p{
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    float: left;
+
+
+}
+ .icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+ }
+.icons  a{
+    color: black ; 
+    font-size: 25px;
+    margin-inline: 20px;
+}
+.icons a i:hover{
+   color: white;
+   
+}
+
+#bars{
+    display: none;
+    color: black;
+    font-size: 25px;
+}
+.main{
+    background-image: url(./images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.mainText {
+    position: relative;
+    top: 41%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    margin-top: 20px ;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+.head{
+    text-align: center;
+    padding: 85px;
+    font-size: 30px;
+}
+.head span{
+    color: orange;
+}
+
+.mainText button:hover{
+   background-color: orange;
+    color: white;
+}
+.booking{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.booking img{
+    width: 520px;
+    border-radius: 5px;
+}
+.form{
+    box-shadow: 0 4px 4px 6px rgb(230, 229, 229);
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    margin-inline: 23px;
+    padding: 20px;
+}
+.form h2{
+    font-size: 25px;
+}
+.form input{
+    padding: 5px;
+    width: 90%;
+    margin-top: 6px;
+    font-size: 13px;
+}
+.form input:hover{
+    border: 1px solid orange;
+    
+}
+.form p{
+    margin-bottom: 0px;
+    margin-top: 1px;
+}
+.form button{
+width: 100px;
+height: 40px;
+margin-top: 10px;
+border: 1px solid orange;
+background-color: transparent;
+font-size: 18px;
+border-radius: 5px;
+}
+.form button:hover{
+    color: white;
+    background-color: orange;
+}
+
+.packages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.packages .card{
+    width: 300px;
+    height: 360px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 6px rgb(230, 229, 229);
+    margin-inline: 22px;
+    /* margin-top: 11px; */
+}
+.card img{
+    width: 100%;
+    height: 250;
+    display: inline;
+    border-radius:5px ;
+}
+.card h3{
+    margin-left: 10px;
+    font-size:25px ;
+    margin-top: 10px;
+}
+.card p{
+    margin-left:10px ;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+
+
+
+
+@media only screen and (max-width:1031px)
+{
+.packages .card{
+    margin-top: 20px;
+    
+}
+}
+@media only screen and (max-width:967px)
+{
+    nav .logo p{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .head{
+        font-size: 20px;
+    }
+    .form h2{
+        font-size: 20px;
+    }
+    .form p{
+        margin-bottom: 0px;
+        margin-top: 2px;
+        font-size: 10px;
+    }
+    .form button{
+        width: 80px;
+        height: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width:900px)
+{
+    ul{
+        display: none;
+    }
+    #bars{
+        display: inline-block;
+        font-size:22px ;
+    }
+    #user{
+        font-size: 24px;
+        
+    }
+    nav .logo p{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (max-width:866px)
+{
+    .booking img{
+        width: 90%;
+    } 
+    .form {
+        margin-top: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:800px)
+{
+.mainText h1{
+    font-size: 38px;
+}
+
+
+}
+@media only screen and (max-width:688px) 
+{
+.mainText h1{
+    font-size: 25px;
+}
+.packages .card{
+    
+    /* height:250px ; */
+     width: 100%;
+    margin-bottom: 10px; 
+    height: 550px; 
+}
+
+}
+
+
+
+
+@media only screen and (min-width:200px) and (max-width: 499px)
+{
+.mainText h1{
+    font-size: 25px;
+}
+.packages .card{
+    
+    /* height:250px ; */
+     width: 100%;
+    margin-bottom: 10px; 
+    height: 360px; 
+}
+
+.card h3{
+    font-size: 20px;
+}
+}
+
+
+
+
+
+
