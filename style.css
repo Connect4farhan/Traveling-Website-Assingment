@@ -1,0 +1,74 @@
+body{
+    background-image: url("nagar.png");
+}
+
+h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.ab {
+    text-align: center;
+    margin-top: 20px;
+}
+.signup{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+h1 {
+    color: #3498db;
+}
+
+.iputs {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#alraedy.acc {
+    text-align: center;
+    margin-top: 20px;
+}
+#text{
+    margin-bottom: 15px;
+}
+#check{
+    width: 20px;
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+}
